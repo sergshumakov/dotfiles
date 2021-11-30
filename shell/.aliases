@@ -1,0 +1,18 @@
+# Git
+alias gc="git checkout"
+alias gpo="git push origin"
+alias gm="git merge"
+alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+# List all files colorized in long format
+alias l="ls -laF"
+
+# VSCode
+alias code='open -a "/Applications/Visual Studio Code.app" "`pwd`"'
+
+# IP addresses
+alias ip="curl https://diagnostic.opendns.com/myip ; echo"
+alias localip="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
+
+# Lock the screen
+alias afk="osascript -e 'tell application \"System Events\" to keystroke \"q\" using {command down,control down}'"
