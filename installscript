@@ -40,10 +40,6 @@ echo '-------------'
 mkdir "${HOME}/.npm-packages"
 npm config set prefix "${HOME}/.npm-packages"
 
-echo 'Install yarn'
-echo '------------'
-brew install yarn
-
 echo 'Install mackup'
 echo '--------------'
 brew install mackup
