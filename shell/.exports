@@ -1,1 +1,1 @@
-# Some exports
+export PATH="/opt/homebrew/opt/php@8.0/bin:$PATH"
