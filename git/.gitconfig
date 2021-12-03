@@ -1,8 +1,11 @@
 [init]
-	defaultBranch = master
+	defaultBranch = main
 
 [core]
 	excludesfile = ~/.global-gitignore
+
+[pull]
+    rebase = false
 
 [user]
     name = Sergey Shumakov
