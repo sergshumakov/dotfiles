@@ -16,3 +16,8 @@ alias localip="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{
 
 # Lock the screen
 alias afk="osascript -e 'tell application \"System Events\" to keystroke \"q\" using {command down,control down}'"
+
+# Laravel
+alias sail="./vendor/bin/sail"
+alias pa="php artisan"
+alias sa="sail artisan"
