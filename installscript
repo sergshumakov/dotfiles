@@ -42,7 +42,7 @@ npm config set prefix "${HOME}/.npm-packages"
 
 echo 'Install php'
 echo '-----------'
-brew install php@8.0
+brew install php@8.1
 
 echo 'Install composer'
 echo '----------------'
