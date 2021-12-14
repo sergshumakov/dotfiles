@@ -63,6 +63,10 @@ echo 'Install mackup'
 echo '--------------'
 brew install mackup
 
+echo 'Install support tools'
+echo '---------------------'
+brew install htop
+
 echo '++++++++++++++++++++++++++++++'
 echo 'All done!'
 
