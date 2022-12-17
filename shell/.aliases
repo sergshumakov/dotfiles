@@ -21,3 +21,4 @@ alias afk="osascript -e 'tell application \"System Events\" to keystroke \"q\" u
 alias sail="./vendor/bin/sail"
 alias pa="php artisan"
 alias sa="sail artisan"
+alias pint="./vendor/bin/pint"

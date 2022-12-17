@@ -8,5 +8,5 @@
     rebase = false
 
 [user]
-    name = Sergey Shumakov
-    email = sergey@shumakov.email
+	name = Sergey Shumakov
+	email = sergey@shumakov.email
