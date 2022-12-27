@@ -1,5 +1,4 @@
 export PATH="/opt/homebrew/opt/node/bin:$PATH"
-
 export PATH=~/.composer/vendor/bin:$PATH
 
 # Path to your oh-my-zsh configuration.

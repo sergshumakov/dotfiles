@@ -7,6 +7,9 @@ alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset
 # List all files colorized in long format
 alias l="ls -laF"
 
+# PhpStorm
+alias pstorm='open -na "PhpStorm.app"'
+
 # VSCode
 alias code='open -a "/Applications/Visual Studio Code.app" "`pwd`"'
 
@@ -19,6 +22,6 @@ alias afk="osascript -e 'tell application \"System Events\" to keystroke \"q\" u
 
 # Laravel
 alias sail="./vendor/bin/sail"
+alias pint="./vendor/bin/pint"
 alias pa="php artisan"
 alias sa="sail artisan"
-alias pint="./vendor/bin/pint"
