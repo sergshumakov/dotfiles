@@ -26,23 +26,5 @@ echo install homebrew
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-echo 'Install node'
-echo '------------'
-brew install node
-
-echo 'Configure npm'
-echo '-------------'
-# Create a directory for global packages and tell npm where to store globally installed packages
-mkdir "${HOME}/.npm-packages"
-npm config set prefix "${HOME}/.npm-packages"
-
-echo 'Install php & composer'
-echo '-----------'
-brew install php@8.2 composer
-
-echo 'Install support tools'
-echo '---------------------'
-brew install htop
-
 echo '++++++++++++++++++++++++++++++'
 echo 'All done!'
